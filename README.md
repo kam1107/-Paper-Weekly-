@@ -27,7 +27,6 @@ s(Work in progress!)
 | ---------------- | ---- | ------------ |
 | #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao]()
 | #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu]()
-|
 
 
 
