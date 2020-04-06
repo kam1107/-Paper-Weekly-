@@ -3,24 +3,21 @@
 
 😸This repository contains a list of interesting & inspiring **CV/ML** papers (or any kinds of blogs/repos), intended to keep track of most advancing techniques and seek inspirations from. Papers are listed in formats of either summaries or TL;DRs. 
 
-s(Work in progress!)
-
 ## How to contribute
 [![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/0)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/0)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/1)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/1)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/2)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/2)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/3)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/3)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/4)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/4)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/5)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/5)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/6)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/6)[![](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/images/7)](https://sourcerer.io/fame/eveneveno/eveneveno/-Paper-Weekly-/links/7)
 
-## Table of Contents
+## ✨ New Arrival Candidates
 
-- [Computer Vision (CV)]()
-- [Computer Graphics (CG)]()
-- [Machine Learning (ML)]()
-- [Natural Language Processing (NLP)]()
+- **Computer Vision (CV)**
+  * [1] [RANSAC-Flow: generic two-stage image alignment](http://imagine.enpc.fr/~shenx/RANSAC-Flow/) 🐰
+  * [2] [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdfs) | 🐌[Github-Re](https://github.com/yenchenlin/nerf-pytorch)
+  * [3] [VIOLIN: A Large-Scale Dataset for Video-and-Language Inference](https://github.com/jimmy646/violin) 🤔
+- **Computer Graphics (CG)**
+- **Machine Learning (ML)**
+- **Natural Language Processing (CV & NLP)**
+  * [1] [PTMs: A Survey](https://arxiv.org/abs/2003.08271) (TL;DR)
+- **Others**
 
-## ✨ New Arrival
-| Update Issue | Date | Remarks |
-| ---------------- | ---- | ------------ |
-| [RANSAC-Flow](http://imagine.enpc.fr/~shenx/RANSAC-Flow/), Pixel-BERT | April 06, 2020 | alignment
-| PTMs  | April 05, 2020 | NLP
-| NeRF | April 03, 2020 | View Synthesis, Rendering
 
 ## 🍃 Old Issues
 | Newsletter Issue | Date | Content|
