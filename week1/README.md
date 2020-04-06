@@ -9,7 +9,9 @@
 | Video Editing | [Inserting Videos into Videos](https://arxiv.org/pdf/1903.06571.pdf) | CVPR'19
 | Video Style Transfer| [Stylizing Video by Example✨](https://dcgi.fel.cvut.cz/home/sykorad/Jamriska19-SIG.pdf) | SIGGRAPH'19
 
-**🥥Inpainting**
+**🥥Inpainting** [[Detailed Slides]](https://drive.google.com/open?id=17JlcQQYGyV6ZroDJftBFBToalMk-b3TX)
+> PLEASE redirect to their Github pages and try on demos ! 
+
 | Topic | Title | Venue| 
 | ---------------- | ---- | ------------ |
 | Inpainting | [Free-Form Image Inpainting with Gated Convolution✨](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Free-Form_Image_Inpainting_With_Gated_Convolution_ICCV_2019_paper.pdf) | ICCV'19
