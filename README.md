@@ -22,8 +22,8 @@
 ## 🍃 Old Issues
 | Newsletter Issue | Date | Content|
 | ---------------- | ---- | ------------ |
-| #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao](https://github.com/eveneveno/-Paper-Weekly-/tree/master/week1)
-| #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu](https://github.com/eveneveno/-Paper-Weekly-/tree/master/week2)
+| #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao](week1/README.md)
+| #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu](week2/README.md)
 
 
 
