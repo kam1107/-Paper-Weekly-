@@ -15,20 +15,17 @@ s(Work in progress!)
 - [Machine Learning (ML)]()
 - [Natural Language Processing (NLP)]()
 
-## ✨ New Arrival
-| Update Issue | Date | Remarks |
-| ---------------- | ---- | ------------ |
-| [RANSAC-Flow](http://imagine.enpc.fr/~shenx/RANSAC-Flow/), Pixel-BERT | April 06, 2020 | alignment
-| PTMs  | April 05, 2020 | NLP
-| NeRF | April 03, 2020 | View Synthesis, Rendering
-
-## 🍃 Old Issues
+## Issues
 | Newsletter Issue | Date | Content|
 | ---------------- | ---- | ------------ |
 | #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao]()
 | #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu]()
 |
 
-
+| Update Issue | Date | Remarks |
+| ---------------- | ---- | ------------ |
+| [RANSAC-Flow](http://imagine.enpc.fr/~shenx/RANSAC-Flow/), Pixel-BERT | April 06, 2020 | alignment
+| PTMs  | April 05, 2020 | NLP
+| NeRF | April 03, 2020 | View Synthesis, Rendering
 
 
