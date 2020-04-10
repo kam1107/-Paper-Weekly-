@@ -1,7 +1,7 @@
 ## Selecte Papers
 `✨Recommended`
 
-**🥥3D**
+**🥥3D Body** [[Detailed Slides]](https://docs.google.com/presentation/d/1P2uG0N7UzzqBKYrPEsKAgc9Q4--tM5EkUuevTZokP_A/edit?usp=sharing)
 
 | Topic | Title | Venue| 
 | ---------------- | ---- | ------------ |
@@ -9,7 +9,7 @@
 | View Synthesis| [SynSin: End-to-end View Synthesis from a Single Image✨](https://arxiv.org/abs/1912.08804) | CVPR'20
 
 
-**🥥Interactive Segmentation** 
+**🥥Interactive Segmentation**  [[Detailed Slides]](https://docs.google.com/presentation/d/1RgoFBVdFhAUXZCJhcSq6SLkBzK4LP-HWNJYFArHBz0s/edit?usp=sharing)
 
 | Topic | Title | Venue| 
 | ---------------- | ---- | ------------ |
