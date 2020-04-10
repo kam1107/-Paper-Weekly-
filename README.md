@@ -1,6 +1,9 @@
 # 🦄 Paper Weekly
-> Inspired by [nlp_paper_summaries](https://github.com/dair-ai/nlp_paper_summaries) and [nlp_newsletter](https://github.com/dair-ai/nlp_newsletter). 
+> Google Doc: https://docs.google.com/document/d/1yTjahoEMj9xdbIaOqPGAj4xytyni84jn0_s8-0G-Vuc/edit?usp=sharing
 
+<!--
+> Inspired by [nlp_paper_summaries](https://github.com/dair-ai/nlp_paper_summaries) and [nlp_newsletter](https://github.com/dair-ai/nlp_newsletter). 
+-->
 😸This repository contains a list of interesting & inspiring **CV/ML** papers (or any kinds of blogs/repos), intended to keep track of most advancing techniques and seek inspirations from. Papers are listed in formats of either summaries or TL;DRs. 
 
 ## How to contribute
@@ -36,8 +39,8 @@
 | ---------------- | ---- | ------------ |
 | #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao](week1/README.md)
 | #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu](week2/README.md)
-| #3: SMPL, Retargeting | April 10, 2020 | [week 3: qqhuang, yxiong, ayrao]((week3/README.md))
-| #4:  | April 17, 2020 | week 4: lnxu, twu
+| #3: SMPL, Homography, Retargeting | April 10, 2020 | [week 3: qqhuang, yxiong, ayrao]((week3/README.md))
+| #4: Relightening, View Synthesis | April 17, 2020 | week 4: lnxu, twu
 
 
 
