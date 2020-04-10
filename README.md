@@ -39,7 +39,7 @@
 | ---------------- | ---- | ------------ |
 | #1: Videos, Impainting, Depth| March 27, 2020 | [week 1: qqhuang, yxiong, ayrao](week1/README.md)
 | #2: 3D Body, Interactive Segmentation | April 03, 2020 | [week 2: lnxu, twu](week2/README.md)
-| #3: SMPL, Homography, Retargeting | April 10, 2020 | [week 3: qqhuang, yxiong, ayrao]((week3/README.md))
+| #3: SMPL, Homography, Retargeting | April 10, 2020 | [week 3: qqhuang, yxiong, ayrao](week3/README.md)
 | #4: Relightening, View Synthesis | April 17, 2020 | week 4: lnxu, twu
 
 
