@@ -1,21 +1,3 @@
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
-processEscapes: true},
-jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-TeX: {
-extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-equationNumbers: {
-autoNumber: "AMS"
-}
-}
-});
-</script>
-
 ### [Deep Single Image Portrait Relighting (CVPR’19)](https://zhhoper.github.io/paper/zhou_ICCV2019_DPR.pdf)
 Hao Zhou, Sunil Hadap, Kalyan Sunkavalli, and David W. Jacobs
 (University of Maryland, Amazon, Adobe Research) 
@@ -23,7 +5,7 @@ Hao Zhou, Sunil Hadap, Kalyan Sunkavalli, and David W. Jacobs
 
 #### Results
 <video width="320" height="240" controls>
-    <source src="https://zhhoper.github.io/pbr/celebA.mp4">s
+    <source src="https://zhhoper.github.io/pbr/celebA.mp4">
 </video>
 <video width="320" height="240" controls>
     <source src="https://zhhoper.github.io/pbr/Occlusion.mp4">
@@ -85,6 +67,11 @@ A feature matching loss is further proposed to ensure the same person under diff
 $$
 \mathcal{L}_{F}=\frac{1}{N_{F}}\left(\mathbf{Z}_{\mathrm{f} 1}-\mathbf{Z}_{\mathrm{f} 2}\right)^{2}
 $$
+
+```math
+\mathcal{L}_{F}=\frac{1}{N_{F}}\left(\mathbf{Z}_{\mathrm{f} 1}-\mathbf{Z}_{\mathrm{f} 2}\right)^{2}
+```
+
 ##### Skip Training
 Notice that most of the facial information is passed through skip layers, while $\mathbf{Z}_{\mathbf{f}}$ contains little facial information. We thus propose a skip training strategy in which we train our network without skip connections first, then add skip layers one by one during subsequent training. With the skip training strategy, more facial information is kept in the feature layer.
 <p align="center">
@@ -97,4 +84,5 @@ Notice that most of the facial information is passed through skip layers, while 
 
 #### References
 [6] Volker Blanz and Thomas Vetter. **A morphable model for the synthesis of 3d faces.** In SIGGRAPH, 1999.
+
 [22] Soumyadip Sengupta, Angjoo Kanazawa, Carlos D. Castillo, and David W. Jacobs. **Sfsnet: Learning shape, refectance and illuminance of faces in the wild.** In CVPR, 2018.
