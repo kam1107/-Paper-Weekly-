@@ -4,15 +4,17 @@ Hao Zhou, Sunil Hadap, Kalyan Sunkavalli, and David W. Jacobs
 🍃[[Project Page]](https://zhhoper.github.io/dpr.html)
 
 #### Results
-<video width="320" height="240" controls>
+<p align="center">
+<video width="240" height="180" controls>
     <source src="https://zhhoper.github.io/pbr/celebA.mp4">
 </video>
-<video width="320" height="240" controls>
+<video width="240" height="180" controls>
     <source src="https://zhhoper.github.io/pbr/Occlusion.mp4">
 </video>
-<video width="320" height="240" controls>
+<video width="240" height="180" controls>
     <source src="https://zhhoper.github.io/pbr/nonFrontal.mp4">
 </video>
+</p>
 
 #### Motivation
 Conventional physically-based methods for relighting
@@ -43,6 +45,7 @@ We use **3DDFA** to estimates normals from portrait images  since it outputs the
 <p align="center">
     <img src="img/ARAP.png" alt="drawing" width="500"/>
 </p>
+
 ###### Relighting Images
 We then use **SfSNet** to estimate SH lighting $\mathbf{L}^{*}$
 <p align="center">
@@ -50,10 +53,12 @@ We then use **SfSNet** to estimate SH lighting $\mathbf{L}^{*}$
      <img src="img/generated.png" alt="drawing" width="350"/>
 </p>
 [2] A deep Convolutional Neural Network (CNN) is then trained using this dataset to generate a relighted portrait image by using a source image and a target lighting as input. 
+
 ##### Main Architecture
 <p align="center">
     <img src="img/hourglass.png" alt="drawing" width="500"/>
 </p>
+
 ##### Loss Design
 We apply L1 loss for generated portrait image $\mathbf{I}_{t}^{*}$ and an L2 loss for the predicted lighting $\mathbf{L}_{s}^{*}$. An L1 loss is further applied to the gradient of $\mathbf{I}_{t}^{*}$ to preserve edges and avoid blurring:
 $$
@@ -67,10 +72,6 @@ A feature matching loss is further proposed to ensure the same person under diff
 $$
 \mathcal{L}_{F}=\frac{1}{N_{F}}\left(\mathbf{Z}_{\mathrm{f} 1}-\mathbf{Z}_{\mathrm{f} 2}\right)^{2}
 $$
-
-```math
-\mathcal{L}_{F}=\frac{1}{N_{F}}\left(\mathbf{Z}_{\mathrm{f} 1}-\mathbf{Z}_{\mathrm{f} 2}\right)^{2}
-```
 
 ##### Skip Training
 Notice that most of the facial information is passed through skip layers, while $\mathbf{Z}_{\mathbf{f}}$ contains little facial information. We thus propose a skip training strategy in which we train our network without skip connections first, then add skip layers one by one during subsequent training. With the skip training strategy, more facial information is kept in the feature layer.
