@@ -1,4 +1,8 @@
-### [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) 
+#### [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) 
+Related courses: 
+* [cs224u: Natural Language Understanding (Spring 2020)](https://web.stanford.edu/class/cs224u/)
+* [cs224w: Machine Learning with Graphs (Fall 2019)](http://web.stanford.edu/class/cs224w/)
+
 Reference Textbooks:
 * Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 * Jacob Eisenstein. [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
@@ -31,12 +35,50 @@ Reference Textbooks:
 #### Github Compilations
 * **Visual Grounding** Reading List by Arka Sadhu (@TheShadow29): https://github.com/TheShadow29/awesome-grounding 
 * **Multi-modal** Reading List by Paul Liang (@pliang279): https://github.com/pliang279/awesome-multimodal-ml/
+    <details><summary>Click to expand: Core Areas</summary>
+
+    * Representation Learning
+    * Multimodal Fusion
+    * Multimodal Alignment
+    * Multimodal Translation
+    * Missing or Imperfect Modalities
+    * Knowledge Graphs and Knowledge Bases 
+    * Interpretable Learning
+    * Generative Learning 
+    * Semi-supervised Learning 
+    * Self-supervised Learning 
+    * Language Models
+    * Adversarial Attacks 
+    * Few-shot Learning 
+    </details>
+    <details><summary>Click to expand: Applications and Datasets</summary>
+
+    * Language and Vision QA
+    * Language Grounding in Vision
+    * Language Grounding in Navigation 
+    * Multimodal Machine Translation 
+    * Multi-agent Communication 
+    * Commensense Reasoning 
+    * Multimodal Reinforcement Learning
+    * Multimodal Dialogue
+    * Language and Audio
+    * Audio and Vision
+    * Media Description
+    * Video Generation from Text
+    * Affect Recognition and Multimodal Language 
+    * Healthcare
+    * Robotics
+
+Selected List 
+| Core Areas |  Paper | Remark
+| ---------------- | ---- |  --- |
+| Representation Learning | 1. [12-in-1: Multi-Task Vision and Language Representation Learning](https://arxiv.org/abs/1912.02315), CVPR 2020 [[code]](https://github.com/facebookresearch/vilbert-multi-task) <br> 2. [VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530), arXiv 2019 [[code]](https://github.com/jackroos/VL-BERT) <br> 3. [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265), NeurIPS 2019 [[code]](https://github.com/jiasenlu/vilbert_beta) <br> 4. [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490), EMNLP 2019 [[code]](https://github.com/airsplay/lxmert)  <br> 5. [VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766), ICCV 2019 | VLBERT <img src="img/vlbert.png" alt="drawing" width="500"/> <br> ViLBERT<img src="img/vilbert.png" alt="drawing" width="500"/> <br> LXMERT<img src="img/lxmert.png" alt="drawing" width="500"/> <br> VideoBERT<img src="img/videobert-2.png" alt="drawing" width="500"/>
 
 #### Other Resources
 * **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
 * **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
 * **Sebastian Ruder** (DeepMind): https://ruder.io/
-  * NLP-progress: https://nlpprogress.com/ (Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.)
+  * **NLP-progress**: https://nlpprogress.com/ (Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.)
     <details><summary>Click to expand</summary>
 
     * Automatic speech recognition
@@ -76,6 +118,15 @@ Reference Textbooks:
     * Word sense disambiguation
 * **huggingface**: https://huggingface.co/transformers/ 
   * Transformers 🤗provides general-purpose architectures (*BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet…*) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow and PyTorch.
+
+#### Workshops and Tutorials
+|  Title | Venue| 
+| ---------------- | ---- | 
+| [Grand Challenge and Workshop on Human Multimodal Language](http://multicomp.cs.cmu.edu/acl2020multimodalworkshop/) | ACL 2020, ACL 2018
+| [Advances in Language and Vision Research](https://alvr-workshop.github.io/) | ACL 2020
+| [Visually Grounded Interaction and Language](https://vigilworkshop.github.io/) | NeurIPS 2019, NeurIPS 2018
+| [The How2 Challenge: New Tasks for Vision & Language](https://srvk.github.io/how2-challenge/) | ICML 2019
+| [Visual Question Answering and Dialog](https://visualqa.org/workshop.html) | CVPR 2019, CVPR 2017
 
 #### Other Readings
 | Type |  Paper | Author 
