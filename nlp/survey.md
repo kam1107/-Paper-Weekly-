@@ -2,7 +2,6 @@
 Reference Textbooks:
 * Dan Jurafsky and James H. Martin. [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 * Jacob Eisenstein. [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
-* Delip Rao and Brian McMahan. Natural Language Processing with PyTorch
 
 | Topic | Course Material| Suggested Readings| Remark|
 | ---------------- | ---- | ------------ | ---- |
@@ -28,3 +27,57 @@ Reference Textbooks:
 | Survey | [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](https://arxiv.org/abs/1907.09358) | arxiv 2019 |  <details><summary>Click to expand</summary><img src="img/10tasks.png" alt="drawing" width="500"/>
 | Survey | [Deep Multimodal Representation Learning: A Survey](https://ieeexplore.ieee.org/abstract/document/8715409) | arXiv 2019 |  <details><summary>Click to expand</summary><img src="img/multi-repre.png" alt="drawing" width="600"/>
 | Survey | [Multimodal Machine Learning: A Survey and Taxonomy](https://arxiv.org/abs/1705.09406) | TPAMI 2018 |  <details><summary>Click to expand</summary><img src="img/5challenges.png" alt="drawing" width="600"/>
+
+#### Github Compilations
+* **Visual Grounding** Reading List by Arka Sadhu (@TheShadow29): https://github.com/TheShadow29/awesome-grounding 
+* **Multi-modal** Reading List by Paul Liang (@pliang279): https://github.com/pliang279/awesome-multimodal-ml/
+
+#### Other Resources
+* **nlp-newsletter** (@dair-ai): https://github.com/dair-ai/nlp_newsletter 
+* **nlp-hightlights-podcasts** (@Allen AI): https://soundcloud.com/nlp-highlights 
+* **Sebastian Ruder** (DeepMind): https://ruder.io/
+  * NLP-progress: https://nlpprogress.com/ (Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.)
+    <details><summary>Click to expand</summary>
+
+    * Automatic speech recognition
+    * Common sense
+    * Constituency parsing
+    * Coreference resolution
+    * Dependency parsing
+    * Dialogue
+    * Domain adaptation
+    * Entity linking
+    * Grammatical error correction
+    * Information extraction
+    * Intent Detection and Slot Filling
+    * Language modeling
+    * Lexical normalization
+    * Machine translation
+    * Missing elements
+    * Multi-task learning
+    * Multi-modal
+    * Named entity recognition
+    * Natural language inference
+    * Part-of-speech tagging
+    * Question answering
+    * Relation prediction
+    * Relationship extraction
+    * Semantic textual similarity
+    * Semantic parsing
+    * Semantic role labeling
+    * Sentiment analysis
+    * Shallow syntax
+    * Simplification
+    * Stance detection
+    * Summarization
+    * Taxonomy learning
+    * Text classification
+    * Time-stamping
+    * Word sense disambiguation
+* **huggingface**: https://huggingface.co/transformers/ 
+  * Transformers 🤗provides general-purpose architectures (*BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet…*) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow and PyTorch.
+
+#### Other Readings
+| Type |  Paper | Author 
+| ---------------- | ---- |  --- |
+| Book | [A Stochastic Grammar of Images](http://www.stat.ucla.edu/~sczhu/papers/Reprint_Grammar.pdf) | Song-Chun Zhu, 2007
